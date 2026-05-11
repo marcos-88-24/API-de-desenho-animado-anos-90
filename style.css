@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(135deg, #9fd0aa, #76c1b8, #86bfd3);
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;     
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 220px;
+    padding: 12px;
+    border: 1px solid #79bfa8;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #dff7ea;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.14);
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
