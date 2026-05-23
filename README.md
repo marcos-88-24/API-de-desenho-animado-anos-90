@@ -56,7 +56,3 @@ requisições assíncronas com fetch
 manipulação do DOM
 criação dinâmica de elementos com JavaScript
 eventos de clique e teclado
-
-Essa versão soa mais como alguém apresentando o próprio trabalho.
-
-Se quiser, também posso montar um README com um estilo bem de faculdade brasileira — aquele formato que professor normalmente gosta, com introdução, desenvolvimento, funcionamento e conclusão.
